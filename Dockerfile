@@ -1,6 +1,6 @@
 FROM nginx:1.22-bullseye
 
-LABEL NAME=hpa-cpu-memory Version=1.26.0
+LABEL NAME=hpa-cpu-memory Version=1.22.0
 
 RUN apt-get update && \
     apt-get install -y fcgiwrap spawn-fcgi python3 && \
